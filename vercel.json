@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd artifacts/shizle && pnpm install && pnpm build",
+  "outputDirectory": "artifacts/shizle/dist",
+  "installCommand": "pnpm install"
+}
