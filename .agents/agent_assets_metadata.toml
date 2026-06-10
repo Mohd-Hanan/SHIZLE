@@ -1,0 +1,38 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "m1v9TErNrNLp9Iv4P8thq"
+uri = "file://artifacts/shizle/public/images/hero.png"
+type = "image"
+title = "Boutique interior warm festive"
+
+[[generated]]
+id = "pyhoq5zvv_wI4PSkHNX_r"
+uri = "file://artifacts/shizle/public/images/kurti.png"
+type = "image"
+title = "Elegant kurti display"
+
+[[generated]]
+id = "QpfALMIzhP2SdcYIkgA0i"
+uri = "file://artifacts/shizle/public/images/western.png"
+type = "image"
+title = "Western top display"
+
+[[generated]]
+id = "nmi8CoIvcIHpsjrn74O92"
+uri = "file://artifacts/shizle/public/images/gown.png"
+type = "image"
+title = "Party gown display"
+
+[[generated]]
+id = "S5oZoDMlAkai3d_W9uJKl"
+uri = "file://artifacts/shizle/public/images/ethnic.png"
+type = "image"
+title = "Ethnic fusion display"
+
+[[generated]]
+id = "3XDF4uMVqZM0Xj965C3q3"
+uri = "file://artifacts/shizle/public/images/about.png"
+type = "image"
+title = "Boutique atmosphere"
