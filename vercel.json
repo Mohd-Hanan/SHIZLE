@@ -1,5 +1,18 @@
 {
-  "buildCommand": "cd artifacts/shizle && pnpm install && pnpm build",
-  "outputDirectory": "artifacts/shizle/dist",
-  "installCommand": "pnpm install"
+  "version": 2,
+  "builds": [
+    {
+      "src": "artifacts/shizle/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/artifacts/shizle/$1"
+    }
+  ]
 }
