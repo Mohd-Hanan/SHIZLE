@@ -1,7 +1,7 @@
 {
   "version": 2,
   "buildCommand": "pnpm --filter @workspace/shizle build",
-  "outputDirectory": "artifacts/shizle/dist",
+  "outputDirectory": "artifacts/shizle/dist/public",
   "installCommand": "pnpm install --no-frozen-lockfile",
   "rewrites": [{"source": "/(.*)", "destination": "/"}]
 }
